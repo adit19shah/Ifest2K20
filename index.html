@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style/style.css" />
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./home/cover.css" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./event/event.css" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./home/aboutus.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./home/sitemap.css" />
+    <!-- <script src="home.js"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./home/timer.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./home/home.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./home/misc.css" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/pop.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/popMain.css" />
+
+    <!--particles.css,particles.js and app.js added by Adit for background animations on the Home Page-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/particles.css" />
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+        <div id="particles-js">
+            <div id="red">      
+                    <div class="main-agile">
+                            <img class="logo" id="mainLogo" src="images/logow.png">
+                     </div>
+            </div>                   
+        </div>  
+        <div class="fraza fade">
+
+            <h1 style="text-align:center;color:whitesmoke;font-family: Arial, Helvetica, sans-serif;font-size:150px;"> I.FEST 2K20 </h1>
+            <!--<div class="timer-count" style="margin-top:3.5%">
+                <ul id="countdown" style="color: #fff;">
+                    <li id="days">
+                        <div class="number">361</div>
+                        <div class="label">Days</div>
+                    </li>
+                    <li id="hours">
+                        <div class="number">1</div>
+                        <div class="label">Hours</div>
+                    </li>
+                    <li id="minutes">
+                        <div class="number">58</div>
+                        <div class="label">Minutes</div>
+                    </li>
+                    <li id="seconds">
+                        <div class="number">56</div>
+                        <div class="label">Seconds</div>
+                    </li>
+                </ul>
+            </div>--><br><br>
+            <h1 style="text-align:center;color:whitesmoke;font-family: Poppins;font-size:50px;"> ( COMING &nbsp; SOON ) </h1>
+
+        </div>
+
+
+    <script src="./js/index.js"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js"></script>
+    <script src="./event/event.js"></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="./home/timer.js"></script>
+
+    <script>
+        $(function() {
+            $.scrollify({
+                section: ".fullpage-scroll",
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function() {
+            $(".toggle-menu").click(function() {
+                $('#menuBars').toggleClass('fa-bars fa-close');
+                document.querySelector('.navList').classList.toggle("menuOpen");
+            });
+        });
+    </script>
+
+    <!--Added by Adit-->
+      <script src="js/particles.js"></script>
+      <script src="js/app.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+
+</html>
