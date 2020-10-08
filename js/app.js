@@ -14,7 +14,7 @@ particlesJS('particles-js',
         "value": "#0000ff" // Or use an array of colors like ["#9b0000", "#001378", "#0b521f"]
       },
       "shape": {
-          "type": "star", // Can show circle, edge (a square), triangle, polygon, star, img, or an array of multiple.
+          "type": "circle", // Can show circle, edge (a square), triangle, polygon, star, img, or an array of multiple.
           "stroke": { // The border
             "width": 0,
             "color": "#0000ff"

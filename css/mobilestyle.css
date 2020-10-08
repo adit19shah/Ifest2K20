@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px){
 #wrapper{
-    margin-top:30vh;
+    margin-top:20vh;
 }
 #tictechtoelogo{
     height:9vh;
@@ -27,7 +27,7 @@
     overflow: hidden;
     text-shadow: -0.5rem 0 #FF6E48;
     clip: rect(0, 90rem, 0, 0);
-    animation: noise 3s infinite linear alternate-reverse;
+    animation: noise 9s infinite linear alternate-reverse;
     }glitch::before {
     content: attr(data-trick1);
     position: absolute;
@@ -38,7 +38,7 @@
     overflow: hidden;
     text-shadow: 0.3rem 0 #FF6E48;
     clip: rect(0, 90rem, 0, 0);
-    animation: noise 4s infinite linear alternate-reverse;
+    animation: noise 9s infinite linear alternate-reverse;
 }
 .glitch2 {
     color: white;
@@ -56,7 +56,7 @@
     overflow: hidden;
     text-shadow: -0.5rem 0 #FF6E48;
     clip: rect(0, 90rem, 0, 0);
-    animation: noise 3s infinite linear alternate-reverse;
+    animation: noise 9s infinite linear alternate-reverse;
     }glitch::before {
     content: attr(data-trick2);
     position: absolute;
@@ -67,6 +67,6 @@
     overflow: hidden;
     text-shadow: 0.3rem 0 #FF6E48;
     clip: rect(0, 90rem, 0, 0);
-    animation: noise 4s infinite linear alternate-reverse;
+    animation: noise 9s infinite linear alternate-reverse;
 }
 }
