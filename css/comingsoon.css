@@ -33,7 +33,7 @@
 #information-popup{
     font-family: Poppins;
     width:50%;
-    background-color: whitesmoke;
+    background-color:whitesmoke;
     margin-right:50px;
     position:fixed;
     margin-left:25%;
@@ -58,7 +58,7 @@ a{
     overflow: hidden;
     text-shadow: -0.5rem 0 #FF6E48;
     clip: rect(0, 90rem, 0, 0);
-    animation: noise 2s infinite linear alternate-reverse;
+    animation: noise 3s infinite linear alternate-reverse;
     }glitch::before {
     content: attr(data-trick);
     position: absolute;

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px){
+#information-popup{
+    width: 80vw;
+    height: 35vh;
+    margin-left: 10vw;
+    margin-right:10vw;
+    font-size:10px;
+}
+.glitch {
+    color: white;
+    font-size: 10vw;
+    width: 40rem;
+    position: relative;
+  }
+.glitch::after {
+    content: attr(data-trick);
+    position: absolute;
+    top: 0;
+    left: 30vw;
+    color: white;
+   /* background-color: #0C1016; */
+    overflow: hidden;
+    text-shadow: -0.5rem 0 #FF6E48;
+    clip: rect(0, 90rem, 0, 0);
+    animation: noise 3s infinite linear alternate-reverse;
+    }glitch::before {
+    content: attr(data-trick);
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    color: white;
+    background-color: #0C1016;
+    overflow: hidden;
+    text-shadow: 0.3rem 0 #FF6E48;
+    clip: rect(0, 90rem, 0, 0);
+    animation: noise 4s infinite linear alternate-reverse;
+}
+}

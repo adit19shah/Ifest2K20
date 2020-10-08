@@ -4,20 +4,20 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 50,
+        "value": 150,
         "density": {
           "enable": true,
           "value_area": 700 // Denser the smaller the number.
         }
       },
       "color": { // The color for every node, not the connecting lines.
-        "value": "#01579b" // Or use an array of colors like ["#9b0000", "#001378", "#0b521f"]
+        "value": "#ffffff" // Or use an array of colors like ["#9b0000", "#001378", "#0b521f"]
       },
       "shape": {
           "type": "star", // Can show circle, edge (a square), triangle, polygon, star, img, or an array of multiple.
           "stroke": { // The border
-            "width": 1,
-            "color": "#145ea8"
+            "width": 0.5,
+            "color": "#ffffff"
           },
           "polygon": { // if the shape is a polygon
             "nb_sides": 5
@@ -33,7 +33,7 @@ particlesJS('particles-js',
         "random": true
       },
       "size": {
-        "value": 10,
+        "value": 4,
         "random": true
       },
       "line_linked": {
