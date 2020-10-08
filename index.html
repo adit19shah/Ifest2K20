@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home Page</title>
+    <title>I.Fest 2020</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" media="screen" href="./style/style.css" />
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
@@ -25,51 +25,55 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/pop.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/popMain.css" />
 
-    <!--particles.css,particles.js and app.js added by Adit for background animations on the Home Page-->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/particles.css" />
-
-
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
-</head>
+    <!-- Added for I.fest 2020 website -->
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/comingsoon.css" />
+
+    <script src="js/wow.min.js"></script>
+    <script>
+     new WOW().init(); 
+    </script>
+
+      <!-- font awesome for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+</head> 
 
 <body>
+    <div class="body-particles">
 
-        <div id="particles-js">
-            <div id="red">      
+        <!-- Wrapper -->
+            <div id="wrapper">
+                <div id="red">      
                     <div class="main-agile">
                             <img class="logo" id="mainLogo" src="images/logow.png">
-                     </div>
-            </div>                   
-        </div>  
-        <div class="fraza fade">
+                    </div>
+                </div>
+                <div class="text-cover">
+                    <div class="glitch" data-trick="I.FEST'20">I.FEST'20</div>
+                </div>
+                <!--<span>
+                    <h1 style="text-align:center;color:whitesmoke;font-family: Poppins;font-size:50px;"> ( COMING &nbsp; SOON ) </h1>
+                </span>-->
+            </div>
+            <br><br>
+            <div id="information-popup" class="wow fadeInUp">
+                <h1 style="color:black;font-family:Poppins;">We are COMING SOON, <br> Stay Tuned for our latest updates: </h1>
+                <a href="https://instagram.com/i.fest" target="_blank"><h2><i class="fab fa-instagram" style="color:black;z-index: inherit;">&nbsp; &nbsp; https://instagram.com/i.fest</i> </h2></a>
+                <br><br>
+                <h2 style="color:black;z-index: inherit;">Participate in our 36 hour long tic-tech-toe <br> Hackathon to win prizes worth ₹ 2 Lac.<br> <br> For more details, please <a href="http://ifest.daiict.ac.in/tic-tech-toe/" target="_blank"> click here </a></h2>
 
-            <h1 style="text-align:center;color:whitesmoke;font-family: Arial, Helvetica, sans-serif;font-size:150px;"> I.FEST 2K20 </h1>
-            <!--<div class="timer-count" style="margin-top:3.5%">
-                <ul id="countdown" style="color: #fff;">
-                    <li id="days">
-                        <div class="number">361</div>
-                        <div class="label">Days</div>
-                    </li>
-                    <li id="hours">
-                        <div class="number">1</div>
-                        <div class="label">Hours</div>
-                    </li>
-                    <li id="minutes">
-                        <div class="number">58</div>
-                        <div class="label">Minutes</div>
-                    </li>
-                    <li id="seconds">
-                        <div class="number">56</div>
-                        <div class="label">Seconds</div>
-                    </li>
-                </ul>
-            </div>--><br><br>
-            <h1 style="text-align:center;color:whitesmoke;font-family: Poppins;font-size:50px;"> ( COMING &nbsp; SOON ) </h1>
+            </div>
 
         </div>
 
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
 
     <script src="./js/index.js"></script>
 
@@ -103,7 +107,7 @@
         });
     </script>
 
-    <!--Added by Adit-->
+    <!--Added for I.Fest 2020 -->
       <script src="js/particles.js"></script>
       <script src="js/app.js"></script>
         <script>
