@@ -4,7 +4,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 150,
+        "value": 300,
         "density": {
           "enable": true,
           "value_area": 700 // Denser the smaller the number.
@@ -37,8 +37,8 @@ particlesJS('particles-js',
         "random": true
       },
       "line_linked": {
-        "enable": false,
-        "distance": 200, // The radius before a line is added, the lower the number the more lines.
+        "enable":false,
+        "distance": 250, // The radius before a line is added, the lower the number the more lines.
         "color": "#ffffff",
         "opacity": 0.5,
         "width": 2

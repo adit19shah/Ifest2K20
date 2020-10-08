@@ -42,14 +42,14 @@
 a{
     text-decoration: none;
 }
-.glitch {
+.glitch1 {
     color: white;
     font-size: 10rem;
     width: 40rem;
     position: relative;
-  }
-.glitch::after {
-    content: attr(data-trick);
+}
+.glitch1::after {
+    content: attr(data-trick1);
     position: absolute;
     top: 0;
     left: 0.5rem;
@@ -60,7 +60,36 @@ a{
     clip: rect(0, 90rem, 0, 0);
     animation: noise 3s infinite linear alternate-reverse;
     }glitch::before {
-    content: attr(data-trick);
+    content: attr(data-trick1);
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    color: white;
+    background-color: #0C1016;
+    overflow: hidden;
+    text-shadow: 0.3rem 0 #FF6E48;
+    clip: rect(0, 90rem, 0, 0);
+    animation: noise 4s infinite linear alternate-reverse;
+}
+.glitch2 {
+    color: white;
+    font-size: 5rem;
+    width: 40rem;
+    position: relative;
+  }
+.glitch2::after {
+    content: attr(data-trick2);
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+    color: white;
+   /* background-color: #0C1016; */
+    overflow: hidden;
+    text-shadow: -0.5rem 0 #FF6E48;
+    clip: rect(0, 90rem, 0, 0);
+    animation: noise 3s infinite linear alternate-reverse;
+    }glitch::before {
+    content: attr(data-trick2);
     position: absolute;
     top: 0;
     left: -1rem;
