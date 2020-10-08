@@ -1,12 +1,14 @@
 @media only screen and (max-width: 600px){
-#information-popup{
-    width: 80vw;
-    height: 35vh;
-    margin-left: 10vw;
-    margin-right:10vw;
-    font-size:10px;
+#tictechtoelogo{
+    height:9vh;
+    width:45vw;
+    text-align:left;
 }
-.glitch1 {
+.icons
+{
+    font-size:9vw;
+}
+.glitch1{
     color: white;
     font-size: 22vw;
     width: 40rem;

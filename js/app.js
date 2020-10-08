@@ -45,7 +45,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 2,
+        "speed": 5,
         "direction": "top", // Move them off the canvas, either "none", "top", "right", "bottom", "left", "top-right", "bottom-right" et cetera...
         "random": true,
         "straight": false, // Whether they'll shift left and right while moving.
